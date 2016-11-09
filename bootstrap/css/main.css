@@ -33,16 +33,3 @@
   margin-right: 20px;
   margin-left: 20px;
 }
-
-.container {
-  font-family: sans-serif;
-  background-color: transparent;
-}
-
-html {
-	font-size:24px;
-}
-
-.body {
-    background-image: url('../img/boot_lg.jpg');
-}
