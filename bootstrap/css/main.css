@@ -1,9 +1,48 @@
 /*! These are custom styles which extend functionality of the bootstrap stylesheet 
  */
 
-.jumbotron {
-  display: flex;
-  align-items: center;
+.jumbotron1 {
+  display: flex-grow;
+  padding: 5em;
+  font-family:serif;
+  font-weight:bold;
+  align-items: left;
   background-image: url('../img/boot_lg.jpg');
   background-size: cover;
+}
+
+.jumbotron2 {
+  display: flex;
+  padding: 2.5em;
+  margin: 10px 5px 5px 5px;
+  font-family:sans-serif, italic;
+  font-style:italic;
+  align-items: center;
+  background-color: silver;
+  background-size: cover;
+}
+
+.jumbotron3 {
+  display: compact;
+  padding: 0em;
+  font-family:monospace;
+  align-items: right;
+  background-size: cover;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.container {
+  font-family: sans-serif;
+  background-color: transparent;
+}
+
+html {
+	font-size:24px;
+}
+
+.body {
+    background-image: url('../img/boot_lg.jpg');
 }
